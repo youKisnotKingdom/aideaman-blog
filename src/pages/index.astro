@@ -1,0 +1,23 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="ja">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>🧑‍🚀 こんにちは、研究者の皆さん！</h1>
+			<p>
+				このブログは、情報科学研究科の大学院生がサーバー技術、機械学習、特にLLM（Large Language Models）に関する研究や知見を共有するためのものです。ここでは、最新の研究成果や実験結果、学びを記事として投稿し、学術コミュニティとの知識交換の場を提供します。
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>
