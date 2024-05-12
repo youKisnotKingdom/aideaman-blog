@@ -171,3 +171,8 @@ hr {
 	border-bottom-right-radius: 0.4rem;
 	border-bottom-left-radius: 0.4rem;
   }
+
+.giscus {
+	width: 60%;
+	margin: auto;
+}
