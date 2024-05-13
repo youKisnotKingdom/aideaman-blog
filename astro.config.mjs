@@ -6,7 +6,7 @@ import remarkCodeTitles from "remark-code-titles";
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://example.com',
+	site: 'https://blog.aideaman.com',
 	markdown: { 
 		remarkPlugins: [remarkCodeTitles],
 		extendDefaultPlugins: true 
